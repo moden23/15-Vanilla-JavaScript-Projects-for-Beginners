@@ -1,0 +1,74 @@
+#background-text > p {
+    
+    color:white;
+    
+   
+    text-align: center;
+    
+}
+#background-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar>div {
+    font-size: 20px;
+    padding: 5px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#main-content {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+
+#main-content-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorFlipper {
+    color:rgb(0, 162, 255);
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    color:black;
+    padding:10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
