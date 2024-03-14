@@ -1,0 +1,51 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+#main-content {
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#number {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: green;
+}
+
+#buttons {
+    display: flex;
+    
+}
+
+button {
+    margin: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right:8px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
