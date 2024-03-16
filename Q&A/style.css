@@ -1,0 +1,84 @@
+body {
+    height: 99vh;
+    background-color: #F1F5F8;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.header {
+    margin-bottom: 50px;
+    color: #c59d5f;
+}
+
+.first-question,.second-question,.third-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 50px;
+    width: 400px;
+    
+    border-radius: 8px;
+    border: 20px solid white;
+}
+
+
+
+
+.show-anwser {
+    background-color: transparent;
+    border-color: #c59d5f;
+    border-style: solid;
+    color: #c59d5f;
+    font-size: 20px;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.show-anwser:hover {
+    transform: rotate(90deg);
+}
+
+
+
+
+.answer-div {
+    display: none;  
+    margin-bottom: 20px;
+}
+
+.answer-class {
+    
+    display:block ;
+  
+    background-color: white;
+    height: 60px;
+    width: 390px;
+    
+    border-radius: 8px;
+    border-top : 1px solid black;
+    padding-top : 10px;
+    font-size: 15x;
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+    
+}
+
+
+.content-wrapper {
+    margin-bottom: 20px;
+}
