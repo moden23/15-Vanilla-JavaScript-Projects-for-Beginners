@@ -1,0 +1,123 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 0;
+    height: 70px;
+}
+
+body {
+    height: 100vh;
+    background-color: #F4F9FF;
+    margin:0;
+    
+}
+
+#center-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 25px;
+}
+
+#left-nav {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#right-nav {
+    margin-right: 20px;
+}
+
+#facebook {
+    color: white;
+    background-color: #6FA5C6;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#linkedin {
+    color: white;
+    background-color: #6FA5C6;
+    text-align: center;
+}
+
+#sketch {
+    display: inline-block;
+}
+
+i {
+    width: 20px;
+    height: 15px;
+    color: #6FA5C6;
+}
+
+span {
+    color: #6FA5C6;
+    margin-left:5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    #center-nav {
+        display: none;
+    
+    }
+
+    button {
+        display: block;
+        border-color: transparent;
+        background-color: transparent;
+        transition: transform 0.2s;
+        padding-top: 5px;
+
+    }
+
+    button:hover {
+        cursor: pointer;
+        transform: rotate(90deg);
+    }
+
+    #hamburger-first-line,#hamburger-second-line,#hamburger-third-line {
+        background-color: #6FA5C6;
+        margin-bottom: 5px;
+        width: 20px;
+        height: 3px;
+    }
+
+    a {
+        display: none;
+    }
+
+    #center-nav.center-div-responsive {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        flex: 0 0 100%;
+        order: 2;
+        height: 150px;
+        width:200px ;
+        background-color: white;
+        padding-left: 20px;
+        padding-top: 10px;
+    
+    }
+
+    #navbar{
+        flex-wrap: wrap;
+        height: 100px;
+        padding-top: 10px;
+    }
+    
+}
