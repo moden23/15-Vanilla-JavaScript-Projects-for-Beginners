@@ -1,0 +1,121 @@
+body {
+    background-color: #F1F5F8;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+
+#hamburger-btn {
+    width: 100px;
+    height: 100px;
+    border-color: transparent;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    float:right;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 50px;
+    padding-right: 0;
+}
+
+@keyframes iconWidth {
+    from  {
+        width: 20px;
+        height: 5px;
+        border-radius: 1px;
+    }
+    to {
+        width: 60px;
+        height: 15px;
+        border-radius: 8px;
+    }
+}
+
+#first-line,#second-line,#third-line{
+    background-color:#6FA5C6;
+    width: 20px;
+    height: 5px;
+    animation-name: iconWidth;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+nav {
+    display: none;
+}
+
+.nav-style {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width:300px;
+    }
+
+#social-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+        margin-bottom: 40px;
+    }
+
+#nav-header {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+#links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 20px;
+        font-weight: 300;
+        padding-left: 0;
+    }
+
+li {
+        padding-left: 17px;
+    }
+
+li:hover {
+        background-color: #6FA5C6;
+    }
+
+span {
+        color: #6FA5C6;
+    }
+    
+#close-btn {
+        background-color: transparent;
+        border-color: transparent;
+        color:red;
+        font-size: 25px;
+        font-weight: 800;
+        margin-left: 35px;
+        transition: transform 1s;
+    }
+
+#close-btn:hover {
+        cursor: pointer;
+        transform: rotate(540deg);
+    }
